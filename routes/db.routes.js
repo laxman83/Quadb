@@ -6,10 +6,7 @@ const getData = (request, response) => {
     if (error) {
       throw error;
     }
-    const responseObject = [];
-    for (const key in results) {
-      const { name, last, price, volume, base_unit}
-    }
+    
     response.status(200).json(results.rows);
   });
 };
