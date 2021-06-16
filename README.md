@@ -10,7 +10,7 @@
 	--cors<br />
 	--pg<br />
 	--serve<br />
-)
+)<br />
 4.For connecting to the postgres database please change the database crediantial & host in config/db.js file.<br />
 5.For importing data from the https://api.wazirx.com/api/v2/tickers  api please run the npm run data:import command.<br />
  (if anycase you want to remove data then please run the npm run data:destroy command)<br />
